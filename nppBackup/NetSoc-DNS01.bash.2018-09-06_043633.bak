@@ -1,0 +1,7 @@
+virt-install \
+--network bridge:br0 \
+--name NetSoc-DNS01 \
+--ram=256 \
+--vcpus=1 \
+--disk path=/home/vm/NetSoc-DNS01.img,size=10 \
+--cdrom /home/vm/ubuntu-16.04.5-server-amd64.iso
